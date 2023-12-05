@@ -4,7 +4,7 @@ import Main from './components/Main';
 
 const App = () => (
   <Routes>
-    <Route path="/Befa" element={<MainLayout />}>
+    <Route path="/" element={<MainLayout />}>
       <Route path="" element={<Main />} />
     </Route>
   </Routes>
